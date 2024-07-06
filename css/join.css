@@ -26,7 +26,6 @@ body {
 .join-form {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
 }
 .join-form span {
   font-weight: 700;
