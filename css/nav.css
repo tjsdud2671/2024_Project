@@ -90,20 +90,23 @@
     width: 50%;
   }
   .input-form input:focus {
-    border-color: green;
+    border-color: #2cb731;
     outline: none;
   }
   .input-form {
     display: flex;
     max-width: 100%;
   }
-  .search-input {
+  .nav-search-input {
     background-color: #f6f6f6;
     width: 100%;
     height: 40px;
     border: 0px;
     border-radius: 8px;
     padding: 5px 9px;
+  }
+  .nav-search-input:focus {
+    border: 2px solid #fff;
   }
 
   input::placeholder {
