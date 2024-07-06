@@ -10,6 +10,12 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/nav.css" />
@@ -135,7 +141,7 @@
             <button type="button" class="btn-open-modal desktop-login">
               로그인
             </button>
-            <button type="button" class="desktop-join">회원가입</button>
+            <a href="./view/join.html" class="desktop-join">회원가입</a>
           </div>
         </div>
       </div>
@@ -153,6 +159,22 @@
         </div>
       </div>
     </main>
+
+    <section class="main_search">
+      <div class="">
+        <span>인프런에서 가치를 높이세요</span>
+        <div class="">
+          <form class="input-form" onsubmit="return false;">
+            <input
+              type="text"
+              id=""
+              class=""
+              placeholder="배우고 싶은 지식을 입력해보세요."
+            />
+          </form>
+        </div>
+      </div>
+    </section>
 
     <div class="modal">
       <div class="modal_body">

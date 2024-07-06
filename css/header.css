@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+}
+
 li::after {
   content: '|';
   float: right;
