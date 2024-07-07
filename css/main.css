@@ -24,7 +24,7 @@
 }
 .banner-slider:nth-child(2) {
   animation-delay: -3s;
-  background-image: url(/assets/[인프콘]참가신청_공유이벤트_main_521.png);
+  background-image: url(./assets/[인프콘]참가신청_공유이벤트_main_521.png);
 }
 .banner-slider:nth-child(3) {
   animation-delay: -6s;
@@ -55,7 +55,7 @@
   width: 100vw;
   height: 250px;
   margin: 0;
-  background-image: url(/assets/[BD]KDT_main_521.png);
+  background-image: url(./assets/[BD]KDT_main_521.png);
   background-size: 380px 250px;
   background-repeat: no-repeat;
 }
@@ -73,7 +73,7 @@
   width: 100vw;
   height: 250px;
   margin: 0;
-  background-image: url(/assets/사이트오픈-herobanner-pc@2x.png);
+  background-image: url(./assets/사이트오픈-herobanner-pc@2x.png);
   background-size: 380px 250px;
   background-repeat: no-repeat;
 }
@@ -196,7 +196,7 @@
     width: 100vw;
     height: 300px;
     margin: 0;
-    background-image: url(/assets/[BD]KDT_main_521.png);
+    background-image: url(./assets/[BD]KDT_main_521.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -204,7 +204,7 @@
     width: 100vw;
     height: 300px;
     margin: 0;
-    background-image: url(/assets/20240707_021054.png);
+    background-image: url(./assets/20240707_021054.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -218,7 +218,7 @@
     width: 100vw;
     height: 300px;
     margin: 0;
-    background-image: url(/assets/20240703_20595.png);
+    background-image: url(./assets/20240703_20595.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -226,7 +226,7 @@
     width: 100vw;
     height: 300px;
     margin: 0;
-    background-image: url(/assets/20240707_020725.png);
+    background-image: url(./assets/20240707_020725.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -234,7 +234,7 @@
     width: 100vw;
     height: 300px;
     margin: 0;
-    background-image: url(/assets/20240707_021054.png);
+    background-image: url(./assets/20240707_021054.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
