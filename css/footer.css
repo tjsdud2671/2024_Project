@@ -1,0 +1,123 @@
+.footer-desktop {
+  display: none;
+}
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.accordion-list {
+  display: flex;
+  flex-direction: column;
+}
+.accordion-list li::after {
+  content: '';
+}
+.accordion-title {
+  position: relative;
+  padding: 17px 0;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.accordion-title::before {
+  display: inline-block;
+  content: 'Q';
+  font-size: 14px;
+  color: #006633;
+  margin: 0 5px;
+}
+
+.accordion-list {
+  display: none;
+  overflow: hidden;
+  font-size: 14px;
+  background-color: #f4f4f2;
+  padding: 27px 0;
+}
+
+.accordion-list::before {
+  display: inline-block;
+  content: 'A';
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  margin: 0 5px;
+}
+.arrow-wrap {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+}
+.accordion-title .arrow-top {
+  display: none;
+}
+.accordion-title .arrow-bottom {
+  display: block;
+}
+.accordion-title.on .arrow-bottom {
+  display: none;
+}
+.accordion-title.on .arrow-top {
+  display: block;
+}
+
+/*----------------------Desktop--------------------------*/
+
+@media screen and (min-width: 768px) {
+  .footer-mobile {
+    display: none;
+  }
+  .footer-desktop {
+    display: block;
+    height: 261px;
+    background-color: #303740;
+  }
+  .footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #444;
+    padding: 32px 20px;
+  }
+  .list-title {
+    color: #fff;
+    font-weight: 700;
+    padding: 16px 0;
+  }
+  .footer-list {
+    width: 70%;
+    color: #bdbdbd;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+  }
+  .footer-list ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-bottom {
+    height: 194px;
+    background-color: #303740;
+    padding: 32px 20px;
+  }
+  .footer-bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+  }
+  .footer-bottom-list img {
+    width: 85px;
+  }
+  .footer-bottom-list,
+  .footer-bottom-desc {
+    color: #bdbdbd;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
